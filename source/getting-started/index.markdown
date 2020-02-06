@@ -25,7 +25,7 @@ So here are guidelines:
 
 {% endcomment %}
 
-This guide will help you get Home Assistant running on a Raspberry Pi. The easiest way to do this is by using the [Hass.io](/hassio/) installer, which is our all-in-one solution that turns Raspberry Pis and other devices into the ultimate home automation hub.
+This guide will help you get Home Assistant running on a Raspberry Pi. The easiest way to do this is by using the [home assistant](/hassio/) installer, which is our all-in-one solution that turns Raspberry Pis and other devices into the ultimate home automation hub.
 
 Follow this guide if you want to get started with Home Assistant easily or if you have little to no Linux experience. For advanced users (or if you don't have a [device that is supported by this guide][supported]), check out our [alternative installation methods](/docs/installation/). Once you finish your alternative installation, you can continue at the [next step][next-step].
 
@@ -42,7 +42,7 @@ We will need a few things to get started with installing Home Assistant. The Ras
 
 ### Software requirements
 
-- Download and extract the HassOS image for [your device](/hassio/installation/)
+- Download and extract the Home Assistant image for [your device](/hassio/installation/)
 - Download [balenaEtcher] to write the image to an SD card
 
 [balenaEtcher]: https://www.balena.io/etcher
@@ -50,7 +50,7 @@ We will need a few things to get started with installing Home Assistant. The Ras
 ### Installation
 
 1. Put the SD card in your card reader.
-2. Open balenaEtcher, select the HassOS image and flash it to the SD card.
+2. Open balenaEtcher, select the Home Assistant image and flash it to the SD card.
 3. Unmount the SD card and remove it from your card reader.
 4. Follow this step if you want to configure Wi-Fi or a static IP address (this step requires a USB stick). Otherwise, move to step 5.
    - Format a USB stick to FAT32 with the volume name `CONFIG`.
